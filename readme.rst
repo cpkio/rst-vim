@@ -18,55 +18,100 @@ This plugin does not yet conform to plugin writing guidelines.
 Progress
 ########
 
-* [X] Top-level field lists
-* [ ] Option lists
-* [X] Escape any character
-* [X] Emphasis and Strong emphasis
-   * [X] Spellcheck emphasis and strong emphasis
-* [X] Interpreted text
-   * [X] Spellcheck interpreted text
-* [X] Inline literals
-   * [X] Spellcheck inline literals
-* [X] Substitution reference
-* [X] Inline role
-* [X] Inline internal target
-* [X] Footnote reference
-* [X] Hyperlink reference
-   * [X] Spellcheck hyperlink text
-   * [X] Underline hyperlink address
-* [X] Directive
-   * [X] Formatlistpat
-   * [X] Directive fields
-   * [X] Highlighting inlines inside directive content
-   * [X] Spellcheck inside directive
-* [ ] Literal block
-   * [ ] Coloring
-   * [ ] Spellcheck inside literal block
-* [X] Quoted literal block
-   * [X] Coloring
-   * [X] Spellcheck inside quoted literal block
-* [X] Line block
-   * [X] Coloring
-   * [X] Spellcheck inside line block
-* [X] Blockquote
-   * [X] Coloring
-   * [X] Spellcheck blockquote
-* [X] Numbered lists
-   * [X] Formatlistpat
-   * [X] Highlight inlines
-* [X] Unnumbered lists
-   * [X] Formatlistpat
-   * [X] Highlight inlines
-* [X] Comment block
-* [ ] Section headers
-   * [X] Coloring
-   * [ ] Spellcheck header text
+- 🗹 Top-level field lists
+
+- ☒ Option lists (won't do)
+
+- 🗹 Escape any character
+
+- 🗹 Emphasis and Strong emphasis
+
+  - 🗹 Spellcheck emphasis and strong emphasis
+
+- 🗹 Interpreted text
+
+  - 🗹 Spellcheck interpreted text
+
+- 🗹 Inline literals
+
+  - 🗹 Spellcheck inline literals
+
+- 🗹 Substitution reference
+
+- 🗹 Inline role
+
+- 🗹 Inline internal target
+
+- 🗹 Footnote reference
+
+- 🗹 Hyperlink reference
+
+  - 🗹 Spellcheck hyperlink text
+
+  - 🗹 Underline hyperlink address
+
+- 🗹 Directive
+
+  - 🗹 Formatlistpat
+
+  - 🗹 Directive fields
+
+  - 🗹 Highlighting inlines inside directive content
+
+  - 🗹 Spellcheck inside directive
+
+- ☐ Literal block
+
+  - ☐ Coloring
+
+  - ☐ Spellcheck inside literal block
+
+- 🗹 Quoted literal block
+
+  - 🗹 Coloring
+
+  - 🗹 Spellcheck inside quoted literal block
+
+- 🗹 Line block
+
+  - 🗹 Coloring
+
+  - 🗹 Spellcheck inside line block
+
+- 🗹 Blockquote
+
+  - 🗹 Coloring
+
+  - 🗹 Spellcheck blockquote
+
+- 🗹 Numbered lists
+
+  - 🗹 Formatlistpat
+
+  - 🗹 Highlight inlines
+
+- 🗹 Unnumbered lists
+
+  - 🗹 Formatlistpat
+
+  - 🗹 Highlight inlines
+
+- 🗹 Comment block
+
+- ☐ Section headers
+
+  - 🗹 Coloring
+
+  - ☐ Spellcheck header text
+
 
 Bugs
 ####
 
-* [ ] Lines with interpreted text and inline literals sometimes can highlight nearby words
-* [ ] Incorrect coloring of indented numbered lists (same as blockquote)
+- Lines with interpreted text and inline literals sometimes can highlight
+  nearby words
+
+- Incorrect coloring of indented numbered lists (same as blockquote)
 
 License
 #######
