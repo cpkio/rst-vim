@@ -93,6 +93,7 @@ syntax cluster xLinking contains=xLink,xLinkQuoted,xTarget,xTargetInline,xFootno
 hi link xList Identifier
 hi link xNumList xList
 hi link xUnnumList xList
-syntax match xNumList '\v^\s*\(?[0-9а-яa-zA-Z#](\.[0-9]+)?[).]\s+'
+syntax match xNumList '\v^\s*\(?[а-яa-zA-Z#][).]\s+'
+syntax match xNumList '\v^\s*\(?[0-9](\.[0-9]+)*[).]\s+'
 syntax match xUnnumList '\v^\s*[-+o*•‣]\s+'
 syntax cluster xList contains=xNumList,xUnnumList
